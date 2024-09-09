@@ -3,33 +3,40 @@ html {
 
 }
 
+body { 
+    margin: 0;
+    font-size: 21px;
+}
+
 
 .container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1000px;
+    padding: 100px 0;
     margin: 0 auto;
-    padding: 15em;
+}
+
+.heade-hero {
+    width: 50%;
+    color: white;
 }
 
 h1 {
-    width: 55%;
-    color: white;
     font-size: 48px;
     font-style: normal;
-}
-
-p {
-    font-size: 21px;
-    width: 50%;
-    color: white;  
 }
 
 button {
     background-color: #38CFD9;
     color: #23424A;
-    font-size: 21px;
-    font-style: bold;
+    font-weight: 900;
+    text-transform: uppercase;
     border-radius: 4em;
     border-style: none;
     padding: 10px 35px;
+}
+
+.button:hover,
+.button:focus {
+    opacity: 0.75;
 }
