@@ -1,0 +1,30 @@
+a{
+    color:rgb(0, 113, 113);
+    font-size: 1.35em;
+}
+
+.item-price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+
+.add-item {
+    font-weight: bold;
+    background-color: rgb(255,216,20);
+    border: none;
+    border-radius: 15px;
+    width: 115px;
+    height: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buy-item {
+    font-weight: bold;
+    background-color: rgb(255, 164, 28);
+    border: none;
+    border-radius: 15px;
+    width: 115px;
+    height: 35px;
+    cursor: pointer;
+}
