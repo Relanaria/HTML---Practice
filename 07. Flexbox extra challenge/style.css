@@ -41,6 +41,7 @@ header{
 }
 
 .design-info{
+    max-width: 1128px;
     display: flex;
     justify-content: space-around;
 }
@@ -64,9 +65,10 @@ header{
 .custom{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     color: white;
-    width: 80%;
+    width: 90%;
+    max-width: 1128px;
 }
 
 .info {
@@ -97,13 +99,18 @@ header{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     color: white;
-    width: 80%;
+    width: 90%;
+    max-width: 1128px;
 }
 
 .description{
     width: 60%;
+}
+
+.description p {
+    font-size: 1.131rem;
 }
 
 .create img {
